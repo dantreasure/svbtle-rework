@@ -1,0 +1,29 @@
+body {
+	font-family: 'proxima-nova','Helvetica','Avenir',sans-serif;
+	font-weight: 400;
+}
+
+#container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 900px;
+}
+
+#column-left {
+	float: left;
+	width: 75%;
+}
+	#column-left h1 {
+		font-size: 28px;
+		line-height: 50px;
+	}
+#column-right {
+	float: left;
+	width: 25%;
+}
+	.also-read-items {
+		width: 80%;
+		float: right;
+	}
+		.article-title {
+		}

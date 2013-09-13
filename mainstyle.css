@@ -33,9 +33,9 @@
 }
 
 #column-left {
-	margin: 85px 20px 10px 35px;
+	margin: 78px 20px 10px 30px;
 	float: left;
-	width: 40%;
+	width: 43%;
 }
 	#featured {
 		font-family: 'Raleway', sans-serif;
@@ -45,18 +45,31 @@
 		text-transform: uppercase;
 		margin-bottom: 50px;
 		padding-bottom: 0;
-		font-size: 55px;
+		font-size: 48px;
 		text-transform: none;
 		margin-bottom: 40px;
 		margin-top: 50px;
 		color: #ccc;
-		letter-spacing: -2px;
+		letter-spacing: .5px;
 	}
-	#article-title a {
+	#column-left #article-title a, h2 {
 		text-decoration: none;
 		font-size: 35px;
 		font-weight: bold;
 		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 10px;
+	}
+	#author {
+		margin: 0 0;
+		font-family: 'Raleway', sans-serif;
+		font-size: 17px;
+		font-weight: 900;
+		color: #2B3344;
+		letter-spacing: .5px;
+	}
+	#column-left p {
+		font-family: 'Merriweather Sans', sans-serif;
+		color: #575457;
 	}
 
 

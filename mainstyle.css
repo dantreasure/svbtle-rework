@@ -1,24 +1,65 @@
-body {
-	font-family: 'proxima-nova','Helvetica','Avenir',sans-serif;
-	font-weight: 400;
+
+#nav-bar {
 }
+	#nav-bar a {
+		font-family: 'Titillium Web', sans-serif;
+		text-decoration: none;
+		position: absolute;
+		letter-spacing: 1px;
+		top: 23px;
+		left: 18px;
+		font-size: 17px;
+		line-height: 26px;
+		font-weight: 900;
+		margin: 10px 0px 5px 5px;
+		padding: 0;
+		display: block;
+		color: #e3e3e3;
+		text-align: left;
+		border-left: 6px solid #000;
+		padding-left: 10px;
+		padding-top: 2px;
+		text-transform: uppercase;
+		opacity: .1;
+	}
+
+	#nav-bar a, a:visited{
+  		color: inherit;
+	}
 
 #container {
-	margin: 0 auto;
 	width: 80%;
-	max-width: 900px;
+	margin: 0 auto;
 }
 
 #column-left {
+	margin: 85px 20px 10px 35px;
 	float: left;
-	width: 75%;
+	width: 40%;
 }
-	#column-left h1 {
+	#featured {
+		font-family: 'Raleway', sans-serif;
+		margin: 30px 30px 30px 0px;
+		margin-top: 55px;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-bottom: 50px;
+		padding-bottom: 0;
+		font-size: 55px;
+		text-transform: none;
+		margin-bottom: 40px;
+		margin-top: 50px;
 		color: #ccc;
-		font-size: 28px;
-		line-height: 50px;
+		letter-spacing: -2px;
 	}
-	
+	#article-title a {
+		text-decoration: none;
+		font-size: 35px;
+		font-weight: bold;
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+
 #column-right {
 	float: left;
 	width: 25%;

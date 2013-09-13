@@ -14,9 +14,11 @@ body {
 	width: 75%;
 }
 	#column-left h1 {
+		color: #ccc;
 		font-size: 28px;
 		line-height: 50px;
 	}
+	
 #column-right {
 	float: left;
 	width: 25%;
